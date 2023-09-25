@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<form>
+    <h2>El club viejuner</h2>
+  <fieldset>
+    <legend>Tú:</legend>
+    <label for="Nombre">Nombre:</label><br>
+    <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+    <label for="Apellidos">Apellidos:</label><br>
+    <input type="text" id="Apellidos" name="Apellidos" placeholder="Apellidos"><br><br>
+    <label for="Edad">Edad:</label>
+    <input type="number" id="Edad" name="Edad" step="1"><br><br>
+    <input type="radio" id="sexo" name="Mujer" value="Mujer">
+    <label for="Sexo">Mujer</label>
+    <input type="radio" id="sexo" name="Hombre" value="Hombre">
+    <label for="Sexo">Hombre</label> <br><br>
+    <input type="checkbox" id="Me siento viejuner" name="Me siento viejuner" value="Me siento viejuner">
+    <label for="Me siento viejuner">Me siento viejuner</label> <br><br>
+    <p><label for="Algo sobre tí">Escribe algo sobre tí:</label></p>
+    <textarea id="Algo sobre tí" name="Algo sobre tí" rows="4" cols="50"></textarea><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+
+  <fieldset>
+    <legend>Tus circunstancias:</legend><br>
+
+    <label for="Nombre">Correo electrónico:</label>
+    <input type="text" id="Correo" name="Correo" placeholder="Correo"><br><br>
+    <label for="Teléfono">Teléfono:</label>
+    <input type="text" id="Teléfono" name="Teléfono" placeholder="Teléfono"><br>
+    <br><input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+<form>
+
+    <h2>Los ladronzuelos de bicicletas</h2><br>
+    <fieldset>
+        <form action="/action_page.php">
+            <label for="Día">Día:</label>
+            <input type="date" id="Día" name="Día"><br>
+           <br> <label for="tiempo">Hora:</label>
+            <input type="time" id="tiempo" name="tiempo"><br><br>
+            <label for="colorbici">Color de la bicicleta:</label>
+            <input type="color" id="colorbici" name="colorbici" value="#ff0000"><br><br>
+        
+            <form 
+oninput="x.value=parseInt(a.value)">
+<label for="precio">Rango de precio:</label>
+  0
+  <input type="range" id="precio" name="precio" value="50">
+  1000 +
+  
+  =
+  <output name="x" for="precio"></output>
+  <br><br>
+</form>
+  <form>
+    <label for="paseo">Paseo:</label>
+    <select id="paseo" name="paseo">
+      <option value="Señorial">Señorial</option>
+      <option value="Anti-plebeyos">Anti-plebeyos</option>
+      <option value="PorEncimaDelHombro">PorEncimaDelHombrot</option>
+    </select>
+    <input type="submit">
+  </form><br><br>
+  <form>
+    <label for="montaña">Montaña:</label>
+    <select id="montaña" name="montaña">
+      <option value="Gamusinos">Gamusinos</option>
+      <option value="Hueleflores premium">Hueleflores premium</option>
+      <option value="Fango lover">Fango lover</option>
+    </select>
+    <input type="submit">
+  </form><br><br>
+  <form>
+    <label for="carreras">Carreras:</label>
+    <select id="carreras" name="carreras">
+      <option value="Gamusinos">Metroymedio</option>
+      <option value="Hueleflores premium">3 de la tarde. Fluorescente edition</option>
+      <option value="Fango lover">Grupitors</option>
+    </select>
+    <input type="submit">
+  </form><br>
+
+<form>
+    <label for="Accesorios">Accesorios:</label>
+    <select name="Accesorios" id="Accesorios" multiple>
+      <option value="Ruedines">Ruedines</option>
+      <option value="Pegatinas">Pegatinas</option>
+      <option value="Cestita">Cestita</option>
+      <option value="Bomba de aire">Bomba de aire</option>
+      <option value="Timbre">Timbre</option>
+      <option value="Foco">Foco</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  
+<form method="get">
+    <label for="Marca">Marca:</label>
+    <input list="Marca" name="Marca" id="Marca">
+    <datalist id="Marca">
+      <option value="specialized">
+      <option value="trek">
+      <option value="merida">
+      <option value="scott">
+      <option value="giant">
+      <option value="cube">
+      <option value="lapierre">
+     <option value="orbea">
+    <option value="cannondale">
+    <option value="bmc">
+    <option value="canyon">
+    <option value="look">
+   <option value="protek">
+            <option value="megamo">
+            <option value="pinarello">
+            <option value="bianchi">
+           <option value="bh">
+          <option value="factor">
+          <option value="ghost">
+          <option value="cervélo">
+          <option value="argon">
+    </datalist>
+    <input type="submit">
+  </form>
+  
+    </fieldset>
+</form>
+
+
+</body>
+</html>
+
